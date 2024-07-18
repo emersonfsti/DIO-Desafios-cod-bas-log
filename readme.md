@@ -40,7 +40,7 @@ A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectiva
 
 <hr>
 
-## 2 Jornada do Herói
+## 2 Pontos de Experiência
 
 ### Descrição
 
@@ -51,6 +51,7 @@ _Tarefa: Escreva um programa simples que simule o ganho de XP após derrotar um 
 _Calculo do XP: Para calcular a quantidade de XP ganhos, o programa precisa considerar o nível do monstro e a dificuldade da batalha. A fórmula num1 * num2 * 100 é usada para calcular essa quantidade com base nos valores fornecidos._
 
 #### Explicação:
+
 _num1: Este é o nível do monstro. Quanto maior o nível do monstro, mais XP você ganhará ao derrotá-lo. Portanto, multiplicar o nível do monstro por um valor maior ajudará a refletir o aumento da recompensa de XP para monstros mais poderosos._
 
 _num2: Este é o valor da dificuldade da batalha, variando de 1 a 100. Quanto maior a dificuldade da batalha, mais XP você deve ganhar para enfrentar um desafio maior. Multiplicar pela dificuldade ajuda a ajustar a recompensa de XP com base na intensidade da batalha._
@@ -70,8 +71,37 @@ Imprima a quantidade de XP ganhos após a batalha.
 
 A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectivas saídas esperadas. Certifique-se de testar seu programa com esses exemplos e com outros casos possíveis.
 
-| Entrada | Saida                      |
-| ------- | -------------------------- |
-| 45 e 40   | Voce ganhou 180000 XP! |
-| 41 e 38  | Voce ganhou 155800 XP! |
-| 15 e 20  | Voce ganhou 30000 XP! |
+| Entrada | Saida                  |
+| ------- | ---------------------- |
+| 45 e 40 | Voce ganhou 180000 XP! |
+| 41 e 38 | Voce ganhou 155800 XP! |
+| 15 e 20 | Voce ganhou 30000 XP!  |
+
+## 3 Capturando Pokémons Iniciais
+
+### Descrição
+
+> No mundo dos jogos Pokémon, os treinadores começam sua jornada escolhendo um dos três Pokémons iniciais: Bulbasaur, Charmander e Mewtwo. Cada treinador escolhe um dos quatro pokemons. Seu desafio é criar uma solução que permita ao jogador escolher um dos Pokémons iniciais e exibir uma mensagem de boas-vindas e o Pokémon escolhido.
+
+### Entrada
+
+Você receberá um número inteiro que representa a escolha do treinador: 1 para Bulbasaur, 2 para Charmander, 4 Pikachu e 5 para Mewtwo.
+
+### Saída
+
+A saída deve ser uma mensagem de boas-vindas que inclua o nome do Pokémon escolhido.
+
+### Exemplos
+
+A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectivas saídas esperadas. Certifique-se de testar seu programa com esses exemplos e com outros casos possíveis.
+
+| Entrada                  | Saída                                                |
+| ------------------------ | ---------------------------------------------------- |
+| Escolha o seu Pokemon: 1 | Voce escolheu o Bulbasaur como seu Pokemon inicial.  |
+| Escolha o seu Pokemon: 2 | Voce escolheu o Charmander como seu Pokemon inicial. |
+| Escolha o seu Pokemon: 4 | Voce escolheu o Pikachu como seu Pokemon inicial.    |
+| Escolha o seu Pokemon: 5 | Voce escolheu o Mewtwocomo seu Pokemon inicial.      |
+
+
+<hr>
+
