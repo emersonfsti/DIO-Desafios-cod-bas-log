@@ -77,6 +77,8 @@ A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectiva
 | 41 e 38 | Voce ganhou 155800 XP! |
 | 15 e 20 | Voce ganhou 30000 XP!  |
 
+<hr>
+
 ## 3 Capturando Pokémons Iniciais
 
 ### Descrição
@@ -102,6 +104,37 @@ A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectiva
 | Escolha o seu Pokemon: 4 | Voce escolheu o Pikachu como seu Pokemon inicial.    |
 | Escolha o seu Pokemon: 5 | Voce escolheu o Mewtwocomo seu Pokemon inicial.      |
 
-
 <hr>
 
+## 4 Coleta de Tesouros no Dungeon
+
+### Descrição
+
+> Sua missão é vasculhar as salas da masmorra em busca de recompensas lendárias e desafios perigosos. Cada sala pode conter monstros formidáveis, tesouros preciosos ou ambos. Use suas habilidades estratégicas para enfrentar as ameaças e coletar os tesouros!
+
+_Tarefa: Escreva um programa que simule sua jornada heróica pela masmorra. O programa deve percorrer cada sala e verificar se há tesouros ou monstros. Se você encontrar um tesouro, colecionará a recompensa. Se encontrar um monstro, terá que derrotá-lo para continuar._
+
+#### Atenção
+
+_Em nossa resolução utilizamos a função.includes() do JavaScript para verificar se um número (representando a sala atual) está presente nos arrays salasComTesouro e salasComMonstro._
+
+### Entrada
+
+O número total de salas no dungeon (um número inteiro).
+
+### Saída
+
+Sempre que encontrar um tesouro, imprima " Tesouro na sala X!".
+Sempre que encontrar um monstro, imprima "Monstro na sala X!".
+
+### Exemplos
+
+A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectivas saídas esperadas. Certifique-se de testar seu programa com esses exemplos e com outros casos possíveis.
+
+| Entrada | Saída                                                    |
+| ------- | -------------------------------------------------------- |
+| 3       | Tesouro na sala 2! Monstro na sala 3!                    |
+| 4       | Tesouro na sala 2! Monstro na sala 3! Tesouro na sala 4! |
+| 2       | Tesouro na sala 2!                                       |
+
+<hr>
